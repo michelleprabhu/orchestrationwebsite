@@ -1,0 +1,7 @@
+fastapi
+uvicorn
+sqlalchemy
+pymysql  # If using MySQL
+psycopg2 
+python-dotenv  # For environment variables
+openai

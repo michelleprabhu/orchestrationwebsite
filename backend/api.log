@@ -1,0 +1,308 @@
+2025-03-06 17:49:35,989 - INFO - === FastAPI Server Starting ===
+2025-03-06 17:49:35,989 - INFO - Endpoints available:
+2025-03-06 17:49:35,989 - INFO -   POST /process_prompt
+2025-03-06 17:49:35,989 - INFO -   POST /process_50_questions
+2025-03-06 17:49:35,989 - INFO -   GET  /dashboard_data
+2025-03-06 17:49:35,990 - INFO -   POST /populate_historical_data
+2025-03-06 17:49:48,519 - INFO - >>> GET /
+2025-03-06 17:49:48,520 - INFO - <<< GET / - Status: 404 - Time: 0.00s
+2025-03-06 17:49:48,555 - INFO - >>> GET /favicon.ico
+2025-03-06 17:49:48,557 - INFO - <<< GET /favicon.ico - Status: 404 - Time: 0.00s
+2025-03-06 17:50:16,197 - INFO - >>> GET /docs
+2025-03-06 17:50:16,198 - INFO - <<< GET /docs - Status: 200 - Time: 0.00s
+2025-03-06 17:50:16,302 - INFO - >>> GET /openapi.json
+2025-03-06 17:50:16,327 - INFO - <<< GET /openapi.json - Status: 200 - Time: 0.02s
+2025-03-06 18:17:33,285 - INFO - === FastAPI Server Starting ===
+2025-03-06 18:17:33,286 - INFO - Endpoints available:
+2025-03-06 18:17:33,286 - INFO -   POST /process_prompt
+2025-03-06 18:17:33,286 - INFO -   POST /process_50_questions
+2025-03-06 18:17:33,286 - INFO -   GET  /dashboard_data
+2025-03-06 18:17:33,286 - INFO -   POST /populate_historical_data
+2025-03-06 18:17:42,049 - INFO - >>> GET /docs
+2025-03-06 18:17:42,051 - INFO - <<< GET /docs - Status: 200 - Time: 0.00s
+2025-03-06 18:17:42,110 - INFO - >>> GET /openapi.json
+2025-03-06 18:17:42,125 - INFO - <<< GET /openapi.json - Status: 200 - Time: 0.02s
+2025-03-06 18:37:08,252 - INFO - === FastAPI Server Starting ===
+2025-03-06 18:37:08,252 - INFO - Endpoints available:
+2025-03-06 18:37:08,252 - INFO -   POST /process_prompt
+2025-03-06 18:37:08,252 - INFO -   POST /process_50_questions
+2025-03-06 18:37:08,253 - INFO -   GET  /dashboard_data
+2025-03-06 18:37:08,253 - INFO -   POST /populate_historical_data
+2025-03-06 18:37:39,712 - INFO - >>> GET /docs
+2025-03-06 18:37:39,713 - INFO - <<< GET /docs - Status: 200 - Time: 0.00s
+2025-03-06 18:37:39,914 - INFO - >>> GET /openapi.json
+2025-03-06 18:37:39,929 - INFO - <<< GET /openapi.json - Status: 200 - Time: 0.02s
+2025-03-06 18:38:06,714 - INFO - >>> POST /process_prompt
+2025-03-06 18:38:06,726 - INFO - Processing prompt: What is the capital of France?...
+2025-03-06 18:38:06,727 - INFO - Routing prompt to controller...
+2025-03-06 18:38:07,385 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-03-06 18:38:07,550 - INFO - 
+LiteLLM completion() model= gpt-3.5-turbo; provider = openai
+2025-03-06 18:38:08,102 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-06 18:38:08,127 - INFO - Wrapper: Completed Call, calling success_handler
+2025-03-06 18:38:08,129 - INFO - Response received - Model: gpt-3.5-turbo-0125 - Time: 1.40s
+2025-03-06 18:38:08,129 - INFO - Prompt processed - Model: RouteLLM Router (MF) - Cost: $0.0000
+2025-03-06 18:38:08,130 - INFO - <<< POST /process_prompt - Status: 200 - Time: 1.42s
+2025-03-06 18:51:24,179 - INFO - >>> POST /signup
+2025-03-06 18:51:24,181 - INFO - <<< POST /signup - Status: 404 - Time: 0.00s
+2025-03-06 19:08:20,013 - INFO - === FastAPI Server Starting ===
+2025-03-06 19:08:20,013 - INFO - Endpoints available:
+2025-03-06 19:08:20,013 - INFO -   POST /process_prompt
+2025-03-06 19:08:20,013 - INFO -   POST /process_50_questions
+2025-03-06 19:08:20,013 - INFO -   GET  /dashboard_data
+2025-03-06 19:08:20,013 - INFO -   POST /populate_historical_data
+2025-03-06 19:11:00,542 - INFO - >>> POST /process_prompt
+2025-03-06 19:11:00,546 - INFO - Processing prompt: hi...
+2025-03-06 19:11:00,546 - INFO - Routing prompt to controller...
+2025-03-06 19:11:01,450 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-03-06 19:11:01,626 - INFO - 
+LiteLLM completion() model= gpt-3.5-turbo; provider = openai
+2025-03-06 19:11:03,362 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-06 19:11:03,387 - INFO - Wrapper: Completed Call, calling success_handler
+2025-03-06 19:11:03,389 - INFO - Response received - Model: gpt-3.5-turbo-0125 - Time: 2.84s
+2025-03-06 19:11:03,389 - INFO - Prompt processed - Model: RouteLLM Router (MF) - Cost: $0.0000
+2025-03-06 19:11:03,390 - INFO - <<< POST /process_prompt - Status: 200 - Time: 2.85s
+2025-03-06 19:11:22,108 - INFO - >>> POST /process_prompt
+2025-03-06 19:11:22,110 - INFO - Processing prompt: what is the capital of france ...
+2025-03-06 19:11:22,110 - INFO - Routing prompt to controller...
+2025-03-06 19:11:22,817 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-03-06 19:11:22,826 - INFO - 
+LiteLLM completion() model= gpt-4o; provider = openai
+2025-03-06 19:11:23,576 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-06 19:11:23,583 - INFO - Wrapper: Completed Call, calling success_handler
+2025-03-06 19:11:23,584 - INFO - Response received - Model: gpt-4o-2024-08-06 - Time: 1.47s
+2025-03-06 19:11:23,585 - INFO - Prompt processed - Model: RouteLLM Router (MF) - Cost: $0.0006
+2025-03-06 19:11:23,586 - INFO - <<< POST /process_prompt - Status: 200 - Time: 1.48s
+2025-03-06 19:12:11,403 - INFO - >>> POST /process_prompt
+2025-03-06 19:12:11,406 - INFO - Processing prompt: what is the capital of france ...
+2025-03-06 19:12:11,406 - INFO - Routing prompt to controller...
+2025-03-06 19:12:11,715 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-03-06 19:12:11,721 - INFO - 
+LiteLLM completion() model= gpt-4o; provider = openai
+2025-03-06 19:12:12,483 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-06 19:12:12,487 - INFO - Wrapper: Completed Call, calling success_handler
+2025-03-06 19:12:12,488 - INFO - Response received - Model: gpt-4o-2024-08-06 - Time: 1.08s
+2025-03-06 19:12:12,490 - INFO - Prompt processed - Model: RouteLLM Router (MF) - Cost: $0.0006
+2025-03-06 19:12:12,491 - INFO - <<< POST /process_prompt - Status: 200 - Time: 1.09s
+2025-03-06 19:13:34,789 - INFO - >>> GET /dashboard_data
+2025-03-06 19:13:34,946 - INFO - Returning dashboard data from database
+2025-03-06 19:13:34,952 - INFO - <<< GET /dashboard_data - Status: 200 - Time: 0.16s
+2025-03-06 19:13:34,988 - INFO - >>> GET /favicon.ico
+2025-03-06 19:13:34,990 - INFO - <<< GET /favicon.ico - Status: 404 - Time: 0.00s
+2025-03-06 19:42:46,852 - INFO - === FastAPI Server Starting ===
+2025-03-06 19:42:46,852 - INFO - Endpoints available:
+2025-03-06 19:42:46,852 - INFO -   POST /process_prompt
+2025-03-06 19:42:46,852 - INFO -   POST /process_50_questions
+2025-03-06 19:42:46,853 - INFO -   GET  /dashboard_data
+2025-03-06 19:42:46,853 - INFO -   POST /populate_historical_data
+2025-03-06 19:42:48,652 - INFO - >>> GET /dashboard_data
+2025-03-06 19:42:48,891 - INFO - Returning dashboard data from database
+2025-03-06 19:42:48,893 - INFO - <<< GET /dashboard_data - Status: 200 - Time: 0.24s
+2025-03-06 19:44:33,169 - INFO - >>> POST /process_prompt
+2025-03-06 19:44:33,174 - INFO - Processing prompt: what is the capital of india? ...
+2025-03-06 19:44:33,174 - INFO - Routing prompt to controller...
+2025-03-06 19:44:34,355 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-03-06 19:44:34,384 - INFO - 
+LiteLLM completion() model= gpt-4o; provider = openai
+2025-03-06 19:44:35,288 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-06 19:44:35,314 - INFO - Wrapper: Completed Call, calling success_handler
+2025-03-06 19:44:35,316 - INFO - Response received - Model: gpt-4o-2024-08-06 - Time: 2.14s
+2025-03-06 19:44:35,316 - INFO - Prompt processed - Model: RouteLLM Router (MF) - Cost: $0.0007
+2025-03-06 19:44:35,317 - INFO - <<< POST /process_prompt - Status: 200 - Time: 2.15s
+2025-03-06 19:44:42,395 - INFO - >>> GET /dashboard_data
+2025-03-06 19:44:42,496 - INFO - Returning dashboard data from database
+2025-03-06 19:44:42,498 - INFO - <<< GET /dashboard_data - Status: 200 - Time: 0.10s
+2025-03-06 19:44:42,500 - INFO - >>> GET /dashboard_data
+2025-03-06 19:44:42,689 - INFO - Returning dashboard data from database
+2025-03-06 19:44:42,690 - INFO - <<< GET /dashboard_data - Status: 200 - Time: 0.19s
+2025-03-06 19:47:35,492 - INFO - >>> GET /dashboard_data
+2025-03-06 19:47:35,602 - INFO - Returning dashboard data from database
+2025-03-06 19:47:35,603 - INFO - <<< GET /dashboard_data - Status: 200 - Time: 0.11s
+2025-03-06 19:47:35,605 - INFO - >>> GET /dashboard_data
+2025-03-06 19:47:35,726 - INFO - Returning dashboard data from database
+2025-03-06 19:47:35,728 - INFO - <<< GET /dashboard_data - Status: 200 - Time: 0.12s
+2025-03-06 19:49:24,636 - INFO - >>> POST /process_prompt
+2025-03-06 19:49:24,639 - INFO - Processing prompt: HI...
+2025-03-06 19:49:24,639 - INFO - Routing prompt to controller...
+2025-03-06 19:49:25,194 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-03-06 19:49:25,201 - INFO - 
+LiteLLM completion() model= gpt-3.5-turbo; provider = openai
+2025-03-06 19:49:25,702 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-06 19:49:25,706 - INFO - Wrapper: Completed Call, calling success_handler
+2025-03-06 19:49:25,707 - INFO - Response received - Model: gpt-3.5-turbo-0125 - Time: 1.07s
+2025-03-06 19:49:25,709 - INFO - Prompt processed - Model: RouteLLM Router (MF) - Cost: $0.0000
+2025-03-06 19:49:25,710 - INFO - <<< POST /process_prompt - Status: 200 - Time: 1.07s
+2025-03-06 19:53:43,928 - INFO - >>> POST /process_prompt
+2025-03-06 19:53:43,931 - INFO - Processing prompt: what is the capital of france...
+2025-03-06 19:53:43,931 - INFO - Routing prompt to controller...
+2025-03-06 19:53:44,674 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-03-06 19:53:44,681 - INFO - 
+LiteLLM completion() model= gpt-4o; provider = openai
+2025-03-06 19:53:45,494 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-06 19:53:45,498 - INFO - Wrapper: Completed Call, calling success_handler
+2025-03-06 19:53:45,499 - INFO - Response received - Model: gpt-4o-2024-08-06 - Time: 1.57s
+2025-03-06 19:53:45,499 - INFO - Prompt processed - Model: RouteLLM Router (MF) - Cost: $0.0006
+2025-03-06 19:53:45,501 - INFO - <<< POST /process_prompt - Status: 200 - Time: 1.57s
+2025-03-06 20:01:39,994 - INFO - >>> GET /dashboard_data
+2025-03-06 20:01:40,084 - INFO - Returning dashboard data from database
+2025-03-06 20:01:40,086 - INFO - <<< GET /dashboard_data - Status: 200 - Time: 0.09s
+2025-03-06 20:01:40,088 - INFO - >>> GET /dashboard_data
+2025-03-06 20:01:40,212 - INFO - Returning dashboard data from database
+2025-03-06 20:01:40,213 - INFO - <<< GET /dashboard_data - Status: 200 - Time: 0.13s
+2025-03-06 20:04:23,829 - INFO - >>> GET /dashboard_data
+2025-03-06 20:04:23,920 - INFO - Returning dashboard data from database
+2025-03-06 20:04:23,921 - INFO - <<< GET /dashboard_data - Status: 200 - Time: 0.09s
+2025-03-06 20:04:23,923 - INFO - >>> GET /dashboard_data
+2025-03-06 20:04:24,042 - INFO - Returning dashboard data from database
+2025-03-06 20:04:24,043 - INFO - <<< GET /dashboard_data - Status: 200 - Time: 0.12s
+2025-03-06 20:16:12,377 - INFO - >>> GET /dashboard_data
+2025-03-06 20:16:12,470 - INFO - Returning dashboard data from database
+2025-03-06 20:16:12,471 - INFO - <<< GET /dashboard_data - Status: 200 - Time: 0.09s
+2025-03-06 20:16:12,473 - INFO - >>> GET /dashboard_data
+2025-03-06 20:16:12,674 - INFO - Returning dashboard data from database
+2025-03-06 20:16:12,677 - INFO - <<< GET /dashboard_data - Status: 200 - Time: 0.20s
+2025-03-06 20:16:26,274 - INFO - >>> POST /process_prompt
+2025-03-06 20:16:26,277 - INFO - Processing prompt: What is the capital of paris...
+2025-03-06 20:16:26,278 - INFO - Routing prompt to controller...
+2025-03-06 20:16:27,321 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-03-06 20:16:27,334 - INFO - 
+LiteLLM completion() model= gpt-4o; provider = openai
+2025-03-06 20:16:28,302 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-06 20:16:28,309 - INFO - Wrapper: Completed Call, calling success_handler
+2025-03-06 20:16:28,311 - INFO - Response received - Model: gpt-4o-2024-08-06 - Time: 2.03s
+2025-03-06 20:16:28,313 - INFO - Prompt processed - Model: RouteLLM Router (MF) - Cost: $0.0018
+2025-03-06 20:16:28,314 - INFO - <<< POST /process_prompt - Status: 200 - Time: 2.04s
+2025-03-06 20:16:46,652 - INFO - >>> POST /process_prompt
+2025-03-06 20:16:46,654 - INFO - Processing prompt: What is the capital of France...
+2025-03-06 20:16:46,654 - INFO - Routing prompt to controller...
+2025-03-06 20:16:47,153 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-03-06 20:16:47,163 - INFO - 
+LiteLLM completion() model= gpt-4o; provider = openai
+2025-03-06 20:16:47,769 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-06 20:16:47,775 - INFO - Wrapper: Completed Call, calling success_handler
+2025-03-06 20:16:47,777 - INFO - Response received - Model: gpt-4o-2024-08-06 - Time: 1.12s
+2025-03-06 20:16:47,780 - INFO - Prompt processed - Model: RouteLLM Router (MF) - Cost: $0.0006
+2025-03-06 20:16:47,781 - INFO - <<< POST /process_prompt - Status: 200 - Time: 1.13s
+2025-03-06 20:16:50,305 - INFO - >>> GET /dashboard_data
+2025-03-06 20:16:50,533 - INFO - Returning dashboard data from database
+2025-03-06 20:16:50,540 - INFO - <<< GET /dashboard_data - Status: 200 - Time: 0.24s
+2025-03-06 20:16:50,547 - INFO - >>> GET /dashboard_data
+2025-03-06 20:16:50,745 - INFO - Returning dashboard data from database
+2025-03-06 20:16:50,749 - INFO - <<< GET /dashboard_data - Status: 200 - Time: 0.20s
+2025-03-06 20:26:29,780 - INFO - >>> POST /process_prompt
+2025-03-06 20:26:29,783 - INFO - Processing prompt: what is the capital of france...
+2025-03-06 20:26:29,783 - INFO - Routing prompt to controller...
+2025-03-06 20:26:30,516 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-03-06 20:26:30,522 - INFO - 
+LiteLLM completion() model= gpt-4o; provider = openai
+2025-03-06 20:26:31,235 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-06 20:26:31,239 - INFO - Wrapper: Completed Call, calling success_handler
+2025-03-06 20:26:31,240 - INFO - Response received - Model: gpt-4o-2024-08-06 - Time: 1.46s
+2025-03-06 20:26:31,242 - INFO - Prompt processed - Model: RouteLLM Router (MF) - Cost: $0.0006
+2025-03-06 20:26:31,243 - INFO - <<< POST /process_prompt - Status: 200 - Time: 1.46s
+2025-03-06 20:45:05,475 - INFO - >>> GET /dashboard_data
+2025-03-06 20:45:05,621 - INFO - Returning dashboard data from database
+2025-03-06 20:45:05,623 - INFO - <<< GET /dashboard_data - Status: 200 - Time: 0.15s
+2025-03-06 20:45:05,625 - INFO - >>> GET /dashboard_data
+2025-03-06 20:45:05,769 - INFO - Returning dashboard data from database
+2025-03-06 20:45:05,771 - INFO - <<< GET /dashboard_data - Status: 200 - Time: 0.15s
+2025-03-06 21:37:57,513 - INFO - >>> GET /dashboard_data
+2025-03-06 21:37:57,630 - INFO - Returning dashboard data from database
+2025-03-06 21:37:57,632 - INFO - <<< GET /dashboard_data - Status: 200 - Time: 0.12s
+2025-03-06 21:37:57,633 - INFO - >>> GET /dashboard_data
+2025-03-06 21:37:57,748 - INFO - Returning dashboard data from database
+2025-03-06 21:37:57,750 - INFO - <<< GET /dashboard_data - Status: 200 - Time: 0.12s
+2025-03-06 21:52:43,783 - INFO - >>> POST /process_prompt
+2025-03-06 21:52:43,786 - INFO - Processing prompt: What is the capital of france...
+2025-03-06 21:52:43,787 - INFO - Routing prompt to controller...
+2025-03-06 21:52:44,640 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-03-06 21:52:44,646 - INFO - 
+LiteLLM completion() model= gpt-4o; provider = openai
+2025-03-06 21:52:45,458 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-06 21:52:45,461 - INFO - Wrapper: Completed Call, calling success_handler
+2025-03-06 21:52:45,462 - INFO - Response received - Model: gpt-4o-2024-08-06 - Time: 1.67s
+2025-03-06 21:52:45,464 - INFO - Prompt processed - Model: RouteLLM Router (MF) - Cost: $0.0006
+2025-03-06 21:52:45,465 - INFO - <<< POST /process_prompt - Status: 200 - Time: 1.68s
+2025-03-06 21:59:05,626 - INFO - >>> POST /process_prompt
+2025-03-06 21:59:05,637 - INFO - Processing prompt: hey...
+2025-03-06 21:59:05,637 - INFO - Routing prompt to controller...
+2025-03-06 21:59:06,383 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-03-06 21:59:06,403 - INFO - 
+LiteLLM completion() model= gpt-3.5-turbo; provider = openai
+2025-03-06 21:59:06,999 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-06 21:59:07,004 - INFO - Wrapper: Completed Call, calling success_handler
+2025-03-06 21:59:07,008 - INFO - Response received - Model: gpt-3.5-turbo-0125 - Time: 1.37s
+2025-03-06 21:59:07,011 - INFO - Prompt processed - Model: RouteLLM Router (MF) - Cost: $0.0000
+2025-03-06 21:59:07,012 - INFO - <<< POST /process_prompt - Status: 200 - Time: 1.39s
+2025-03-06 22:12:55,222 - INFO - >>> POST /process_prompt
+2025-03-06 22:12:55,225 - INFO - Processing prompt: What is the capital of France...
+2025-03-06 22:12:55,225 - INFO - Routing prompt to controller...
+2025-03-06 22:12:55,798 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-03-06 22:12:55,803 - INFO - 
+LiteLLM completion() model= gpt-4o; provider = openai
+2025-03-06 22:12:56,826 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-06 22:12:56,837 - INFO - Wrapper: Completed Call, calling success_handler
+2025-03-06 22:12:56,837 - INFO - Response received - Model: gpt-4o-2024-08-06 - Time: 1.61s
+2025-03-06 22:12:56,838 - INFO - Prompt processed - Model: RouteLLM Router (MF) - Cost: $0.0006
+2025-03-06 22:12:56,838 - INFO - <<< POST /process_prompt - Status: 200 - Time: 1.62s
+2025-03-06 22:23:33,390 - INFO - >>> POST /process_prompt
+2025-03-06 22:23:33,393 - INFO - Processing prompt: What is AI...
+2025-03-06 22:23:33,394 - INFO - Routing prompt to controller...
+2025-03-06 22:23:34,090 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-03-06 22:23:34,098 - INFO - 
+LiteLLM completion() model= gpt-3.5-turbo; provider = openai
+2025-03-06 22:23:35,319 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-06 22:23:35,328 - INFO - Wrapper: Completed Call, calling success_handler
+2025-03-06 22:23:35,329 - INFO - Response received - Model: gpt-3.5-turbo-0125 - Time: 1.93s
+2025-03-06 22:23:35,330 - INFO - Prompt processed - Model: RouteLLM Router (MF) - Cost: $0.0007
+2025-03-06 22:23:35,331 - INFO - <<< POST /process_prompt - Status: 200 - Time: 1.94s
+2025-03-06 22:24:55,235 - INFO - >>> POST /process_prompt
+2025-03-06 22:24:55,241 - INFO - Processing prompt: what does michelle mean ...
+2025-03-06 22:24:55,241 - INFO - Routing prompt to controller...
+2025-03-06 22:24:55,952 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-03-06 22:24:55,956 - INFO - 
+LiteLLM completion() model= gpt-4o; provider = openai
+2025-03-06 22:24:59,517 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-06 22:24:59,520 - INFO - Wrapper: Completed Call, calling success_handler
+2025-03-06 22:24:59,521 - INFO - Response received - Model: gpt-4o-2024-08-06 - Time: 4.28s
+2025-03-06 22:24:59,522 - INFO - Prompt processed - Model: RouteLLM Router (MF) - Cost: $0.0081
+2025-03-06 22:24:59,523 - INFO - <<< POST /process_prompt - Status: 200 - Time: 4.29s
+2025-03-11 22:19:05,910 - INFO - === FastAPI Server Starting ===
+2025-03-11 22:19:05,911 - INFO - Endpoints available:
+2025-03-11 22:19:05,911 - INFO -   POST /process_prompt
+2025-03-11 22:19:05,911 - INFO -   POST /process_50_questions
+2025-03-11 22:19:05,911 - INFO -   GET  /dashboard_data
+2025-03-11 22:19:05,911 - INFO -   POST /populate_historical_data
+2025-03-11 22:21:28,670 - INFO - >>> POST /process_prompt
+2025-03-11 22:21:28,674 - INFO - Processing prompt: What is the capital ofFrance...
+2025-03-11 22:21:28,674 - INFO - Routing prompt to controller...
+2025-03-11 22:21:29,686 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-03-11 22:21:29,876 - INFO - 
+LiteLLM completion() model= gpt-4o; provider = openai
+2025-03-11 22:21:30,702 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-11 22:21:30,736 - INFO - Wrapper: Completed Call, calling success_handler
+2025-03-11 22:21:30,739 - INFO - Response received - Model: gpt-4o-2024-08-06 - Time: 2.06s
+2025-03-11 22:21:30,739 - INFO - Prompt processed - Model: RouteLLM Router (MF) - Cost: $0.0006
+2025-03-11 22:21:30,740 - INFO - <<< POST /process_prompt - Status: 200 - Time: 2.07s
+2025-03-12 21:49:31,071 - INFO - >>> POST /process_prompt
+2025-03-12 21:49:31,117 - INFO - Processing prompt: What is AI?...
+2025-03-12 21:49:31,118 - INFO - Routing prompt to controller...
+2025-03-12 21:49:32,174 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-03-12 21:49:32,274 - INFO - 
+LiteLLM completion() model= gpt-3.5-turbo; provider = openai
+2025-03-12 21:49:33,497 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-12 21:49:33,512 - INFO - Wrapper: Completed Call, calling success_handler
+2025-03-12 21:49:33,520 - INFO - Response received - Model: gpt-3.5-turbo-0125 - Time: 2.40s
+2025-03-12 21:49:33,525 - INFO - Prompt processed - Model: RouteLLM Router (MF) - Cost: $0.0005
+2025-03-12 21:49:33,526 - INFO - <<< POST /process_prompt - Status: 200 - Time: 2.46s
+2025-03-12 21:50:31,984 - INFO - >>> POST /process_prompt
+2025-03-12 21:50:31,985 - INFO - Processing prompt: Define abstraction in java...
+2025-03-12 21:50:31,985 - INFO - Routing prompt to controller...
+2025-03-12 21:50:32,538 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-03-12 21:50:32,545 - INFO - 
+LiteLLM completion() model= gpt-4o; provider = openai
+2025-03-12 21:50:37,805 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-12 21:50:37,809 - INFO - Wrapper: Completed Call, calling success_handler
+2025-03-12 21:50:37,811 - INFO - Response received - Model: gpt-4o-2024-08-06 - Time: 5.83s
+2025-03-12 21:50:37,812 - INFO - Prompt processed - Model: RouteLLM Router (MF) - Cost: $0.0333
+2025-03-12 21:50:37,813 - INFO - <<< POST /process_prompt - Status: 200 - Time: 5.83s
